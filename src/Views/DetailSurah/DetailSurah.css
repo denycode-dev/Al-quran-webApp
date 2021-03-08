@@ -1,0 +1,8 @@
+.container {
+  margin-top: 1%;
+  max-width: 1400px;
+}
+.height {
+  height: 700px;
+  overflow: auto;
+}
