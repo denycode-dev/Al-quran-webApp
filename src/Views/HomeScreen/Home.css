@@ -3,3 +3,12 @@
   margin-top: 1%;
   max-width: 1300px;
 }
+
+@media (max-width:740px){
+  .container {
+    width: 100%;
+  }
+  .gridSystem {
+    grid-template-columns: 1fr;
+  }
+}

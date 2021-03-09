@@ -10,7 +10,7 @@ export default function Navbar() {
       <h1 className="font-semibold text-3xl text-white ml-5 cursor-pointer">
         Al-Qur'an App
       </h1>
-      <div className="ml-8">
+      {/* <div className="ml-8">
         <div className="bg-white flex items-center rounded-full">
           <input className="rounded-l-full w-full py-2 px-6 text-gray-700 leading-tight focus:outline-none" id="search" type="text" placeholder="Cari Ayat" />
           <div className="p-2">
@@ -19,7 +19,7 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

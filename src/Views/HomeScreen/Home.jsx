@@ -29,7 +29,7 @@ export default class Home extends Component {
     return (
       <div>
         <Navbar />
-        <div className="container bg-gray-100 grid grid-cols-5 gap-3 p-10 rounded-xl shadow-lg">
+        <div className="container bg-gray-100 p-10 rounded-xl shadow-lg grid gap-3 grid-cols-5 gridSystem">
           {
             this.state.surahInfo.map(
               info => {
@@ -39,7 +39,7 @@ export default class Home extends Component {
           }
         </div>
         <footer className="text-center text-gray-400 p-5">
-          <a href="#" className="text-decoration-none">&copy; Deni Irawan Nugraha</a>
+          <a href="https://www.linkedin.com/in/deniirawan99/" className="text-decoration-none">&copy; Deni Irawan Nugraha</a>
         </footer>
       </div>
     )
