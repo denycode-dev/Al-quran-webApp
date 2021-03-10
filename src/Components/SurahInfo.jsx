@@ -10,9 +10,9 @@ export default function SurahInfo(props) {
           <h3 class="text-lg leading-6 font-medium text-gray-900">
             Tentang Surah
           </h3>
-          {/* <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-            <a href="#" className="animate-pulse hover:text-green-600">Lihat tafsir surah {props.data?.nama} di sini <i class="fas fa-external-link-alt"></i></a>
-          </dd> */}
+          <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+            <p className="animate-pulse hover:text-green-600 cursor-pointer" onClick={()=> props.goTafsir(props.data?.nomor)}>Lihat tafsir surah {props.data?.nama} di sini <i class="fas fa-external-link-alt"></i></p>
+          </dd>
         </div>
         <div class="border-t border-gray-200">
           <dl>
@@ -20,7 +20,7 @@ export default function SurahInfo(props) {
             <ReactAudioPlayer
               src={props.data?.audio}
               controls
-              className="ml-10"
+              className="w-100"
             />
             </div>
             <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">

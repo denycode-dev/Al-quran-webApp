@@ -34,6 +34,9 @@ export default class DetailSurah extends Component {
       })
       this.getFromApi()
   }
+  handleGoTafsir = (id) => {
+    this.props.history.push(`${this.props.match.params.surah}/${id}`)
+  }
   render() {
     if(this.state.loading){
       return <Loading />
@@ -41,8 +44,8 @@ export default class DetailSurah extends Component {
     return (
       <div className="">
         <Navbar />
-          <div className="container grid grid-cols-3 gridSystem">
-            <SurahInfo className="col-span-1 height" data={this.state.surahInfo[this.props.match.params.surah - 1]}/>
+          <div className="container grid grid-cols-3 gap-3 gridSystem">
+            <SurahInfo className="col-span-1" data={this.state.surahInfo[this.props.match.params.surah - 1]} goTafsir={this.handleGoTafsir}/>
             <div className="col-span-2 surah rounded-xl height">
               {
                 this.state.surah.map(

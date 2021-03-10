@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import HomeScreen from './Views/HomeScreen/Home'
 import DetailSurah from './Views/DetailSurah/DetailSurah';
 import NotFound from './Views/NotFound/NotFound';
+import Tafsir from './Views/TafsirView/Tafsir';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Switch className="font-sans subpixel-antialiased">
         <Route path="/" component={HomeScreen} exact />
         <Route path="/:surah" component={DetailSurah} exact />
+        <Route path="/:surah/:tafsir" component={Tafsir} exact />
         <Route component={NotFound} />
       </Switch>
     </Router>

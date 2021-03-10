@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const defaultAPI = 'https://al-quran-8d642.firebaseio.com/'
-const API = ''
+const API = 'https://equran.id/api/tafsir/'
 
 const GET = (root, path) => {
   const promise = new Promise((resolve, reject)=>{
