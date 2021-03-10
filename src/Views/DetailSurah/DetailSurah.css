@@ -6,3 +6,12 @@
   height: 700px;
   overflow: auto;
 }
+
+@media (max-width:940px){
+  .container {
+    width: 100%;
+  }
+  .gridSystem {
+    grid-template-columns: 1fr;
+  }
+}

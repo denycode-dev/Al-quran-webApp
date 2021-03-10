@@ -6,15 +6,19 @@ import GlobalAPI from '../../Services/GlobalAPI'
 //Import Components
 import Navbar from '../../Components/Navbar'
 import Card from '../../Components/Card'
+import DetailQuranCard from '../../Components/DetailQuranCard'
+import Loading from '../../Components/Loading'
 
 export default class Home extends Component {
   state = {
+    loading: true,
     surahInfo : []
   }
   getFromApi = () => {
     GlobalAPI.getSurahInfo()
     .then((res)=>{
       this.setState({
+        loading: false,
         surahInfo : res
       })
     })
@@ -26,22 +30,29 @@ export default class Home extends Component {
     this.props.history.push(`/${id}`);
   }
   render() {
+    if(this.state.loading){
+      return <Loading />
+    }else{
     return (
       <div>
         <Navbar />
-        <div className="container bg-gray-100 p-10 rounded-xl shadow-lg grid gap-3 grid-cols-5 gridSystem">
-          {
-            this.state.surahInfo.map(
-              info => {
-                return <Card key={info.nomor} data={info}  goDetail={this.handleGoDetail}/>
-              }
-            )
-          }
+        <div className="grid grid-cols-4 gap-3 container gridSystem">
+          <DetailQuranCard className="col-span-1"/>
+          <div className="col-span-3  bg-gray-100 p-10 rounded-xl shadow-lg grid gap-3 grid-cols-3 gridSystem">
+            {   
+              this.state.surahInfo.map(
+                info => {
+                  return <Card key={info.nomor} data={info}  goDetail={this.handleGoDetail}/>
+                }
+              )
+            }
+          </div>
         </div>
         <footer className="text-center text-gray-400 p-5">
           <a href="https://www.linkedin.com/in/deniirawan99/" className="text-decoration-none">&copy; Deni Irawan Nugraha</a>
         </footer>
       </div>
     )
+          }
   }
 }
