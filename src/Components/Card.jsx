@@ -10,8 +10,7 @@ export default function Card(props) {
             <p className="text-gray-700 text-xl font-bold">{props.data.nama}</p>
             <span className="text-gray-700 text-sm">{props.data.arti} <br /></span>
             <span className="text-gray-500 text-sm">{props.data.type} |</span>
-            <span className="ml-3 text-gray-500 text-sm">ayat : {props.data.ayat}</span>
-            <span className="ml-3 text-gray-500 text-sm">| urutan : {props.data.urut}</span>
+            <span className="ml-3 text-gray-500 text-sm">total : {props.data.ayat} ayat</span>
         </div>
       </div>
     </div>
