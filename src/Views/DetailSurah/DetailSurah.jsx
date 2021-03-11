@@ -37,6 +37,9 @@ export default class DetailSurah extends Component {
   handleGoTafsir = (id) => {
     this.props.history.push(`${this.props.match.params.surah}/${id}`)
   }
+  handleGoDetailTafsir = (id) => {
+    this.props.history.push(`/${id}`);
+  }
   render() {
     if(this.state.loading){
       return <Loading />
@@ -50,7 +53,7 @@ export default class DetailSurah extends Component {
               {
                 this.state.surah.map(
                   surah => {
-                      return <AyatCard key={surah.nomor} data={surah}/>
+                      return <AyatCard key={surah.nomor} data={surah} goDetail={this.handleGoDetailTafsir}/>
                     }
                 )
               }

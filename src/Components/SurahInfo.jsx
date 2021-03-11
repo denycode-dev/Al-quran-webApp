@@ -11,7 +11,7 @@ export default function SurahInfo(props) {
             Tentang Surah
           </h3>
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-            <p className="animate-pulse hover:text-green-600 cursor-pointer" onClick={()=> props.goTafsir(props.data?.nomor)}>Lihat tafsir surah {props.data?.nama} di sini <i class="fas fa-external-link-alt"></i></p>
+            <p className="animate-pulse text-green-400 hover:text-green-600 cursor-pointer" onClick={()=> props.goTafsir(props.data?.nomor)}>Lihat tafsir surah {props.data?.nama} di sini <i class="far fa-arrow-alt-circle-right"></i></p>
           </dd>
         </div>
         <div class="border-t border-gray-200">

@@ -14,6 +14,7 @@ export default function AyatCard(props) {
                 <div className="w-9 h-9 rounded-full flex items-center justify-center bg-green-400">
                     <span className="text-white">{props.data.nomor}</span>
                 </div>
+                <p className="cursor-pointer text-green-400 hover:text-green-600" onClick={() => props.goDetail(props.data?.nomor)}>Lihat Tafsir <i class="far fa-arrow-alt-circle-right"></i></p>
               </div>
             </div>
           </div>
