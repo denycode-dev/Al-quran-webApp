@@ -51,8 +51,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://denycode.xyz/assets/img/portfolio/al-quran/belajar%20quran.JPG)
-
 Learning the Qur'an aims to make it easier for academics, teachers, or all people to be able to learn the Qur'an more easily.
 
 main feature :
@@ -62,7 +60,7 @@ main feature :
 * brief explanation in each chapter about the surah
 * Full interpretation of 30 juz of scraping results from api kemenag ri
 
-This project uses a variety of publicly available APIs for its database sources some of which are used are [Sutanlab Api](https://github.com/sutanlab/quran-api) and [Bachor Api](https://github.com/bachors/ Al-Quran-ID-API) and of course this project is still far from perfect, therefore I really appreciate it if anyone is interested in developing this application with me
+This project uses a variety of publicly available APIs for its database sources some of which are used are [Sutanlab Api](https://github.com/sutanlab/quran-api) and [Bachor Api](https://github.com/bachors/Al-Quran-ID-API) and of course this project is still far from perfect, therefore I really appreciate it if anyone is interested in developing this application with me
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
