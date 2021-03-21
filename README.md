@@ -1,70 +1,157 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][https://github.com/deni-irawan40563/Al-quran-webApp/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/deni-irawan40563/Al-quran-webApp/network/members]
+[![Stargazers][stars-shield]][https://github.com/deni-irawan40563/Al-quran-webApp/stargazers]
+[![Issues][issues-shield]][https://github.com/deni-irawan40563/Al-quran-webApp/issues]
+[![MIT License][license-shield]][https://opensource.org/licenses/MIT]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/deniirawan99/]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="./src/Assets/img/loading.png" alt="Logo" width="80" height="80">
+  </a>
 
-### `npm start`
+  <h3 align="center">Belajar Qur'an</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+    Belajar Al-Qur'an Jadi Lebih Mudah
+    <br />
+    <br />
+    <a href="http://belajar-quran.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/deni-irawan40563/Al-quran-webApp/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/deni-irawan40563/Al-quran-webApp/issues">Request Feature</a>
+  </p>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![Product Name Screen Shot][product-screenshot]](https://denycode.xyz/assets/img/portfolio/al-quran/belajar%20quran.JPG)
 
-### `npm run eject`
+Learning the Qur'an aims to make it easier for academics, teachers, or all people to be able to learn the Qur'an more easily.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+main feature :
+* full use Indonesian
+* Database Full 30 Juz 6236 verse
+* accompanied by a full murottal sound of 30 juz
+* brief explanation in each chapter about the surah
+* Full interpretation of 30 juz of scraping results from api kemenag ri
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project uses a variety of publicly available APIs for its database sources some of which are used are [Sutanlab Api](https://github.com/sutanlab/quran-api) and [Bachor Api](https://github.com/bachors/ Al-Quran-ID-API) and of course this project is still far from perfect, therefore I really appreciate it if anyone is interested in developing this application with me
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Built With
 
-## Learn More
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [React.js](http://reactjs.org/)
+* [tailwind css](https://tailwindcss.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- GETTING STARTED -->
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### Analyzing the Bundle Size
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/deni-irawan40563/Al-quran-webApp.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run Project
+   ```sh
+   npm start
+   ```
 
-### Making a Progressive Web App
+<!-- ROADMAP -->
+## Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+See the [open issues](https://github.com/deni-irawan40563/Al-quran-webApp/issues) for a list of proposed features (and known issues).
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<!-- CONTRIBUTING -->
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### `npm run build` fails to minify
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Deni Irawan Nugraha - [Linkedin](https://www.linkedin.com/in/deniirawan99/) - deni.irawan40563@gmail.com
+
+Project Link: [Al-quran-webApp](https://github.com/deni-irawan40563/Al-quran-webApp)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Netlify](https://www.netlify.com/)
+* [React.js](http://reactjs.org/)
+* [tailwind css](https://tailwindcss.com/)
+* [Axios](https://www.npmjs.com/package/axios)
+* [React Audio Player](https://www.npmjs.com/package/react-audio-player)
+* [Craco](https://www.npmjs.com/package/craco)
+* [Font Awesome](https://fontawesome.com)

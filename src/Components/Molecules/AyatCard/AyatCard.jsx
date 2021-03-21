@@ -12,7 +12,7 @@ export default function AyatCard(props) {
               <AyatText ArabText={props.data.ar} ReadingText={props.data.tr} TranslationText={props.data.id}/>
               <div className="mt-10 flex justify-between items-center">
                 <RoundedCountNumber count={props.data.nomor}/>
-                <TextWithArrow onClick={() => props.goDetail(props.data?.nomor)} Text="Lihat Tafsir"/>
+                {/* <TextWithArrow onClick={() => props.goDetail(props.data?.nomor)} Text="Lihat Tafsir"/> */}
               </div>
             </div>
           </div>
