@@ -1,12 +1,3 @@
-[![Contributors][contributors-shield]][https://github.com/deni-irawan40563/Al-quran-webApp/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/deni-irawan40563/Al-quran-webApp/network/members]
-[![Stargazers][stars-shield]][https://github.com/deni-irawan40563/Al-quran-webApp/stargazers]
-[![Issues][issues-shield]][https://github.com/deni-irawan40563/Al-quran-webApp/issues]
-[![MIT License][license-shield]][https://opensource.org/licenses/MIT]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/deniirawan99/]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
